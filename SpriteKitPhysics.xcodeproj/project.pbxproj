@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		626EB3091CAE51F100F7A02D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626EB3081CAE51F100F7A02D /* AppDelegate.swift */; };
+		626EB30B1CAE51F100F7A02D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 626EB30A1CAE51F100F7A02D /* GameScene.sks */; };
+		626EB30D1CAE51F100F7A02D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626EB30C1CAE51F100F7A02D /* GameScene.swift */; };
+		626EB30F1CAE51F100F7A02D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626EB30E1CAE51F100F7A02D /* GameViewController.swift */; };
+		626EB3121CAE51F100F7A02D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626EB3101CAE51F100F7A02D /* Main.storyboard */; };
+		626EB3141CAE51F100F7A02D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626EB3131CAE51F100F7A02D /* Assets.xcassets */; };
+		626EB3171CAE51F100F7A02D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626EB3151CAE51F100F7A02D /* LaunchScreen.storyboard */; };
+		626EB3221CAE51F200F7A02D /* SpriteKitPhysicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626EB3211CAE51F200F7A02D /* SpriteKitPhysicsTests.swift */; };
+		626EB32D1CAE51F200F7A02D /* SpriteKitPhysicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626EB32C1CAE51F200F7A02D /* SpriteKitPhysicsUITests.swift */; };
+		626EB33B1CAE52F400F7A02D /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 626EB33A1CAE52F400F7A02D /* ball@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		626EB31E1CAE51F200F7A02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 626EB2FD1CAE51F100F7A02D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 626EB3041CAE51F100F7A02D;
+			remoteInfo = SpriteKitPhysics;
+		};
+		626EB3291CAE51F200F7A02D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 626EB2FD1CAE51F100F7A02D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 626EB3041CAE51F100F7A02D;
+			remoteInfo = SpriteKitPhysics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		626EB3051CAE51F100F7A02D /* SpriteKitPhysics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitPhysics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		626EB3081CAE51F100F7A02D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		626EB30A1CAE51F100F7A02D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		626EB30C1CAE51F100F7A02D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		626EB30E1CAE51F100F7A02D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		626EB3111CAE51F100F7A02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		626EB3131CAE51F100F7A02D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		626EB3161CAE51F100F7A02D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		626EB3181CAE51F100F7A02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626EB31D1CAE51F200F7A02D /* SpriteKitPhysicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitPhysicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		626EB3211CAE51F200F7A02D /* SpriteKitPhysicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitPhysicsTests.swift; sourceTree = "<group>"; };
+		626EB3231CAE51F200F7A02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626EB3281CAE51F200F7A02D /* SpriteKitPhysicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitPhysicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		626EB32C1CAE51F200F7A02D /* SpriteKitPhysicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitPhysicsUITests.swift; sourceTree = "<group>"; };
+		626EB32E1CAE51F200F7A02D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		626EB33A1CAE52F400F7A02D /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ball@2x.png"; path = "../../../../../Downloads/ball@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		626EB3021CAE51F100F7A02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626EB31A1CAE51F200F7A02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626EB3251CAE51F200F7A02D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		626EB2FC1CAE51F100F7A02D = {
+			isa = PBXGroup;
+			children = (
+				626EB3071CAE51F100F7A02D /* SpriteKitPhysics */,
+				626EB3201CAE51F200F7A02D /* SpriteKitPhysicsTests */,
+				626EB32B1CAE51F200F7A02D /* SpriteKitPhysicsUITests */,
+				626EB3061CAE51F100F7A02D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		626EB3061CAE51F100F7A02D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				626EB3051CAE51F100F7A02D /* SpriteKitPhysics.app */,
+				626EB31D1CAE51F200F7A02D /* SpriteKitPhysicsTests.xctest */,
+				626EB3281CAE51F200F7A02D /* SpriteKitPhysicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		626EB3071CAE51F100F7A02D /* SpriteKitPhysics */ = {
+			isa = PBXGroup;
+			children = (
+				626EB33A1CAE52F400F7A02D /* ball@2x.png */,
+				626EB3081CAE51F100F7A02D /* AppDelegate.swift */,
+				626EB30A1CAE51F100F7A02D /* GameScene.sks */,
+				626EB30C1CAE51F100F7A02D /* GameScene.swift */,
+				626EB30E1CAE51F100F7A02D /* GameViewController.swift */,
+				626EB3101CAE51F100F7A02D /* Main.storyboard */,
+				626EB3131CAE51F100F7A02D /* Assets.xcassets */,
+				626EB3151CAE51F100F7A02D /* LaunchScreen.storyboard */,
+				626EB3181CAE51F100F7A02D /* Info.plist */,
+			);
+			path = SpriteKitPhysics;
+			sourceTree = "<group>";
+		};
+		626EB3201CAE51F200F7A02D /* SpriteKitPhysicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				626EB3211CAE51F200F7A02D /* SpriteKitPhysicsTests.swift */,
+				626EB3231CAE51F200F7A02D /* Info.plist */,
+			);
+			path = SpriteKitPhysicsTests;
+			sourceTree = "<group>";
+		};
+		626EB32B1CAE51F200F7A02D /* SpriteKitPhysicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				626EB32C1CAE51F200F7A02D /* SpriteKitPhysicsUITests.swift */,
+				626EB32E1CAE51F200F7A02D /* Info.plist */,
+			);
+			path = SpriteKitPhysicsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		626EB3041CAE51F100F7A02D /* SpriteKitPhysics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626EB3311CAE51F200F7A02D /* Build configuration list for PBXNativeTarget "SpriteKitPhysics" */;
+			buildPhases = (
+				626EB3011CAE51F100F7A02D /* Sources */,
+				626EB3021CAE51F100F7A02D /* Frameworks */,
+				626EB3031CAE51F100F7A02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpriteKitPhysics;
+			productName = SpriteKitPhysics;
+			productReference = 626EB3051CAE51F100F7A02D /* SpriteKitPhysics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		626EB31C1CAE51F200F7A02D /* SpriteKitPhysicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626EB3341CAE51F200F7A02D /* Build configuration list for PBXNativeTarget "SpriteKitPhysicsTests" */;
+			buildPhases = (
+				626EB3191CAE51F200F7A02D /* Sources */,
+				626EB31A1CAE51F200F7A02D /* Frameworks */,
+				626EB31B1CAE51F200F7A02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				626EB31F1CAE51F200F7A02D /* PBXTargetDependency */,
+			);
+			name = SpriteKitPhysicsTests;
+			productName = SpriteKitPhysicsTests;
+			productReference = 626EB31D1CAE51F200F7A02D /* SpriteKitPhysicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		626EB3271CAE51F200F7A02D /* SpriteKitPhysicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626EB3371CAE51F200F7A02D /* Build configuration list for PBXNativeTarget "SpriteKitPhysicsUITests" */;
+			buildPhases = (
+				626EB3241CAE51F200F7A02D /* Sources */,
+				626EB3251CAE51F200F7A02D /* Frameworks */,
+				626EB3261CAE51F200F7A02D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				626EB32A1CAE51F200F7A02D /* PBXTargetDependency */,
+			);
+			name = SpriteKitPhysicsUITests;
+			productName = SpriteKitPhysicsUITests;
+			productReference = 626EB3281CAE51F200F7A02D /* SpriteKitPhysicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		626EB2FD1CAE51F100F7A02D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "李坚武";
+				TargetAttributes = {
+					626EB3041CAE51F100F7A02D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SB4SFE24Z3;
+					};
+					626EB31C1CAE51F200F7A02D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SB4SFE24Z3;
+						TestTargetID = 626EB3041CAE51F100F7A02D;
+					};
+					626EB3271CAE51F200F7A02D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = SB4SFE24Z3;
+						TestTargetID = 626EB3041CAE51F100F7A02D;
+					};
+				};
+			};
+			buildConfigurationList = 626EB3001CAE51F100F7A02D /* Build configuration list for PBXProject "SpriteKitPhysics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 626EB2FC1CAE51F100F7A02D;
+			productRefGroup = 626EB3061CAE51F100F7A02D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				626EB3041CAE51F100F7A02D /* SpriteKitPhysics */,
+				626EB31C1CAE51F200F7A02D /* SpriteKitPhysicsTests */,
+				626EB3271CAE51F200F7A02D /* SpriteKitPhysicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		626EB3031CAE51F100F7A02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626EB30B1CAE51F100F7A02D /* GameScene.sks in Resources */,
+				626EB3171CAE51F100F7A02D /* LaunchScreen.storyboard in Resources */,
+				626EB33B1CAE52F400F7A02D /* ball@2x.png in Resources */,
+				626EB3141CAE51F100F7A02D /* Assets.xcassets in Resources */,
+				626EB3121CAE51F100F7A02D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626EB31B1CAE51F200F7A02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626EB3261CAE51F200F7A02D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		626EB3011CAE51F100F7A02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626EB30D1CAE51F100F7A02D /* GameScene.swift in Sources */,
+				626EB30F1CAE51F100F7A02D /* GameViewController.swift in Sources */,
+				626EB3091CAE51F100F7A02D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626EB3191CAE51F200F7A02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626EB3221CAE51F200F7A02D /* SpriteKitPhysicsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626EB3241CAE51F200F7A02D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				626EB32D1CAE51F200F7A02D /* SpriteKitPhysicsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		626EB31F1CAE51F200F7A02D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 626EB3041CAE51F100F7A02D /* SpriteKitPhysics */;
+			targetProxy = 626EB31E1CAE51F200F7A02D /* PBXContainerItemProxy */;
+		};
+		626EB32A1CAE51F200F7A02D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 626EB3041CAE51F100F7A02D /* SpriteKitPhysics */;
+			targetProxy = 626EB3291CAE51F200F7A02D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		626EB3101CAE51F100F7A02D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				626EB3111CAE51F100F7A02D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		626EB3151CAE51F100F7A02D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				626EB3161CAE51F100F7A02D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		626EB32F1CAE51F200F7A02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		626EB3301CAE51F200F7A02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		626EB3321CAE51F200F7A02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpriteKitPhysics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijianwu.SpriteKitPhysics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		626EB3331CAE51F200F7A02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpriteKitPhysics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijianwu.SpriteKitPhysics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		626EB3351CAE51F200F7A02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpriteKitPhysicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijianwu.SpriteKitPhysicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitPhysics.app/SpriteKitPhysics";
+			};
+			name = Debug;
+		};
+		626EB3361CAE51F200F7A02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpriteKitPhysicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijianwu.SpriteKitPhysicsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpriteKitPhysics.app/SpriteKitPhysics";
+			};
+			name = Release;
+		};
+		626EB3381CAE51F200F7A02D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SpriteKitPhysicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijianwu.SpriteKitPhysicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpriteKitPhysics;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		626EB3391CAE51F200F7A02D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpriteKitPhysicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lijianwu.SpriteKitPhysicsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpriteKitPhysics;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		626EB3001CAE51F100F7A02D /* Build configuration list for PBXProject "SpriteKitPhysics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626EB32F1CAE51F200F7A02D /* Debug */,
+				626EB3301CAE51F200F7A02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		626EB3311CAE51F200F7A02D /* Build configuration list for PBXNativeTarget "SpriteKitPhysics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626EB3321CAE51F200F7A02D /* Debug */,
+				626EB3331CAE51F200F7A02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		626EB3341CAE51F200F7A02D /* Build configuration list for PBXNativeTarget "SpriteKitPhysicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626EB3351CAE51F200F7A02D /* Debug */,
+				626EB3361CAE51F200F7A02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		626EB3371CAE51F200F7A02D /* Build configuration list for PBXNativeTarget "SpriteKitPhysicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				626EB3381CAE51F200F7A02D /* Debug */,
+				626EB3391CAE51F200F7A02D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 626EB2FD1CAE51F100F7A02D /* Project object */;
+}
